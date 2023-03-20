@@ -38,7 +38,18 @@
 }
 
 .header{
-  background-color: #ff00b3;
+  background-color: #b32774;
   padding: 0.5rem;
   color: white;
+  margin: 0.4rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box{
+  background-color: antiquewhite;
+  margin: 0.3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
 }
