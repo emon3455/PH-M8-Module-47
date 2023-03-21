@@ -38,7 +38,7 @@
 }
 
 .header{
-  background-color: #b32774;
+  background-color: #2780b3;
   padding: 0.5rem;
   color: white;
   margin: 0.4rem;
@@ -48,6 +48,13 @@
 
 .box{
   background-color: antiquewhite;
+  margin: 0.3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.container{
+  background-color: #db963d;
   margin: 0.3rem;
   padding: 1rem;
   border-radius: 10px;
