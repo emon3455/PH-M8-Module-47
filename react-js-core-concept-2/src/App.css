@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.products-container{
+  background-color: #61dafb;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 2px solid violet;
+  margin-bottom: 0.5rem;
+}
