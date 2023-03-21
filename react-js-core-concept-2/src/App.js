@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react';
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+
       <h1>we can add element like this but this is not dynamic</h1>
       <MySelf></MySelf>
 
@@ -22,10 +24,29 @@ function App() {
         myProducts.map(prod=> <Product name={prod.name} price={prod.price}></Product>)
       }
 
+      <h2>Count project start</h2>
+      
+      <Counter></Counter>
+
+      <h2>Counter done</h2>
+      
+
     </div>
   );
 }
 
+function Counter(){
+  const [count, setCount] = useState(0);
+  const increseCount=()=>setCount(count+1);
+  const decreseCount=()=>setCount(count-1);
+  return(
+    <div className="">
+      <h2>Count: {count}</h2>
+      <button onClick={increseCount}>Increase</button>
+      <button onClick={decreseCount}>Decrease</button>
+    </div>
+  );
+}
 
 function Product(props){
   return(
